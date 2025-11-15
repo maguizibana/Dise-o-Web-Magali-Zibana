@@ -1,0 +1,26 @@
+.banner-curiosidades {
+  background-image: url("../images/banner-curiosidades.jpg");
+}
+
+.info {
+  margin: 0px;
+}
+
+.info-titulo {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.curiosidades li {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.curiosidades p {
+  margin-top: 10px;
+}
+
+.curiosidades strong {
+  display: block;
+  margin-left: 5px;
+}

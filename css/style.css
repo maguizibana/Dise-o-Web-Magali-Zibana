@@ -1,0 +1,123 @@
+body {
+  background-color: #0c0c0c;
+  font-family: "Lato", sans-serif;
+  color: #f5f5f5;
+}
+
+h1,
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo-prison-break {
+  width: 247px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-seccion {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 40px;
+  transition: 0.3s ease;
+}
+
+.menu-seccion-activo {
+  text-decoration: underline;
+}
+
+.menu-seccion:hover {
+  font-size: 17px;
+  transition: 0.3s ease;
+}
+
+footer {
+  background-color: #141414;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-footer {
+  color: #f5f5f5;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1400px;
+  margin: 255px auto;
+}
+
+.info-contenido {
+  width: 500px;
+}
+
+.info-titulo {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.info-imagen {
+  border-radius: 20px;
+  max-width: 700px;
+}
+
+.info-boton {
+  color: #f5f5f5;
+  text-decoration: none;
+  background-color: #3c4b47;
+  margin-right: 14px;
+  width: 110px;
+  height: 32px;
+  padding: 4px 6px;
+  margin-top: 30px;
+  font-size: 14px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.banner h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.seccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 255px 0px;
+}

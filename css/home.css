@@ -1,0 +1,38 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/banner-inicio.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.informacion-banner {
+  width: 35%;
+  margin-bottom: 140px;
+}
+
+.texto-banner {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.categorias-banner {
+  display: flex;
+  align-items: center;
+}
+
+.categoria-banner {
+  background-color: #242d29;
+  margin-right: 14px;
+  width: 110px;
+  height: 32px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}

@@ -1,0 +1,29 @@
+.banner-sobre {
+  background-image: url("../images/banner-sobre.jpg");
+}
+
+.temporadas {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.temporada {
+  display: flex;
+  font-size: 18px;
+}
+
+.temporada-numero {
+  font-family: "Oswald";
+  font-size: 170px;
+  font-weight: 500;
+  color: #3c4b47;
+  margin: 0px;
+  margin-right: 60px;
+}
+
+.temporada-año {
+  display: block;
+  margin-bottom: 10px;
+}
