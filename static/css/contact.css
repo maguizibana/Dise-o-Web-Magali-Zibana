@@ -2,7 +2,6 @@
   background-image: url("../images/banner-contacto.jpg");
 }
 
-
 .formulario {
   width: 90%;
   max-width: 400px;
@@ -14,19 +13,19 @@
 
 .formulario-campo {
   height: 50px;
-  padding:0px 22px;
+  padding: 0px 22px;
   border-radius: 100px;
   font-size: 14px;
   outline: none;
   background-color: transparent;
   color: #f5f5f5;
-  border: 1px solid #f5f5f5; 
+  border: 1px solid #f5f5f5;
   box-sizing: border-box;
 }
 
 .formulario-mensaje {
   height: 100px;
-  padding:22px;
+  padding: 22px;
   border-radius: 20px;
   font-size: 14px;
   background-color: transparent;
@@ -38,7 +37,7 @@
 
 .formulario-boton {
   border: none;
-  align-self: end;
+  align-self: center;
   margin-right: 0px;
   margin-top: 10px;
 }
