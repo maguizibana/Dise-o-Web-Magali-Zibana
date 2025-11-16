@@ -15,6 +15,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #141414;
+  border-radius: 30px;
+  padding-bottom: 32px;
+  transition: all 0.4s ease-in-out;
+}
+
+.personaje:hover {
+  transform: scale(105%);
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -4px 1px 32px 11px rgba(0,0,0,0.3); 
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -4px 1px 32px 11px rgba(0,0,0,0.3);
 }
 
 .personaje-imagen {
@@ -22,7 +32,8 @@
   height: 300px;
   object-fit: cover;
   object-position: top;
-  border-radius: 30px !important;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .personaje-nombre {
@@ -34,4 +45,9 @@
 
 .personaje-nacimiento {
   margin: 0px;
+}
+
+.personaje-descripcion {
+  width: 80%;
+  text-align: center;
 }

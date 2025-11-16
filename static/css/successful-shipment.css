@@ -1,0 +1,30 @@
+.banner-contacto {
+  background-image: url("../images/banner-contacto.jpg");
+}
+
+main {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.icono-avion {
+    width: 60px;
+}
+
+main h1 {
+    font-weight: lighter;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-boton {
+    padding-left: 20px;
+    padding-right: 20px;
+}
