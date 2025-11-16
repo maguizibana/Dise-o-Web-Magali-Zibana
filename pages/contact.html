@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto - Prision Break</title>
-    <link rel="shortcut icon" href="../static/icons/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="../static/icons/favicon.ico"
+      type="image/x-icon"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,9 +37,7 @@
       <nav>
         <ul class="menu">
           <li>
-            <a class="menu-seccion" href="../index.html"
-              >Inicio</a
-            >
+            <a class="menu-seccion" href="../index.html">Inicio</a>
           </li>
           <li>
             <a class="menu-seccion" href="../pages/about.html">Sobre</a>
@@ -49,7 +51,11 @@
             >
           </li>
           <li>
-            <a class="menu-seccion menu-seccion-activo" href="../pages/contact.html">Contacto</a>
+            <a
+              class="menu-seccion menu-seccion-activo"
+              href="../pages/contact.html"
+              >Contacto</a
+            >
           </li>
         </ul>
       </nav>
@@ -60,28 +66,82 @@
     </section>
 
     <main>
-      <form class="formulario" action="">
-        <input class="formulario-campo" type="text" placeholder="Nombre">
-        <input class="formulario-campo" type="text" placeholder="Apellido">
-        <input class="formulario-campo" type="email" placeholder="Email">
-        <textarea class="formulario-mensaje" placeholder="Mensaje" ></textarea>
-        <input class="info-boton formulario-boton" type="submit" value="Enviar">
+      <form class="formulario" action="./successful-shipment.html">
+        <input
+          class="formulario-campo"
+          type="text"
+          placeholder="Nombre"
+          minlength="3"
+          name="nombre"
+          required
+        />
+        <input
+          class="formulario-campo"
+          type="text"
+          placeholder="Apellido"
+          minlength="3"
+          name="apellido"
+          required
+        />
+        <input
+          class="formulario-campo"
+          type="email"
+          placeholder="Email"
+          name="email"
+          required
+        />
+        <textarea
+          class="formulario-mensaje"
+          placeholder="Mensaje"
+          minlength="10"
+          name="mensaje"
+          required
+        ></textarea>
+        <input
+          class="info-boton formulario-boton"
+          type="submit"
+          value="Enviar"
+        />
       </form>
     </main>
 
     <footer>
-      <a class="red-social-footer" href="https://www.instagram.com/prisonbreak/" target="_blank" >
-        <img class="red-social-logo-footer" src="../static/images/logo-instagram.png" alt="Logo Instagram">
+      <a
+        class="red-social-footer"
+        href="https://www.instagram.com/prisonbreak/"
+        target="_blank"
+      >
+        <img
+          class="red-social-logo-footer"
+          src="../static/images/logo-instagram.png"
+          alt="Logo Instagram"
+        />
         <p class="red-social-texto-footer">@prisionbreak</p>
       </a>
 
-      <a class="red-social-footer" href="https://www.facebook.com/PrisonBreak" target="_blank">
-        <img class="red-social-logo-footer" src="../static/images/logo-facebook.png" alt="Logo Facebook">
+      <a
+        class="red-social-footer"
+        href="https://www.facebook.com/PrisonBreak"
+        target="_blank"
+      >
+        <img
+          class="red-social-logo-footer"
+          src="../static/images/logo-facebook.png"
+          alt="Logo Facebook"
+        />
         <p class="red-social-texto-footer">@prisionbreak</p>
       </a>
 
-      <a class="red-social-footer" href="https://x.com/prisonbreak" target="_blank">
-        <img class="red-social-logo-footer" src="../static/images/logo-x.png" alt="Logo X">
+      <a
+        class="red-social-footer"
+        href="https://x.com/prisonbreak"
+        target="_blank"
+      >
+        <img
+          class="red-social-logo-footer"
+          src="../static/images/logo-x.png"
+          alt="Logo X"
+        />
         <p class="red-social-texto-footer">@prisionbreak</p>
       </a>
     </footer>
